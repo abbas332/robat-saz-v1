@@ -49,7 +49,7 @@ $step = file_get_contents("data/".$from_id."/step.txt");
 $members = file_get_contents('data/users.txt');
 $ban = file_get_contents('banlist.txt');
 $uvip = file_get_contents('data/vips.txt');
-$chanell = 'BotSazT';
+$chanell = 'textloov';
 $gold = file_get_contents('data/'.$from_id."/gold.txt");
 function SendMessage($ChatId, $TextMsg)
 {
